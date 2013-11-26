@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^blnc_search.html$ WEB-INF/views/blnc_search.html
+
