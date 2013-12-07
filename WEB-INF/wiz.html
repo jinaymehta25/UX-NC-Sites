@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Wizard</title>
+
+<link href="css/smart_wizard.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.smartWizard-2.0.min.js"></script>
+
+
+
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+    $j(document).ready(function(){
+    	// Smart Wizard 	
+  		$j('#wizard').smartWizard();
+      
+      function onFinishCallback(){
+        $j('#wizard').smartWizard('showMessage','Finish Clicked');
+      }     
+		});
+</script>
+
+ <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- JavaScript -->
+   
+ 
+    <script src="js/modern-business.js"></script>
+
+</head><body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <a class="navbar-brand" href="blnc-1.html">BLNC</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="#">Business Registration</a></li>
+            <li><a href="#">Licensing</a></li>
+            <li><a href="#">Taxes</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="portfolio-1-col.html">Startup Checklist</a></li>
+                <li><a href="portfolio-2-col.html">For Employers</a></li>
+                <li><a href="portfolio-3-col.html">Help for Startups</a></li>
+              </ul>
+            </li>
+          </ul>
+		   <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Need Help?<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="portfolio-1-col.html">Speak to a Business Resource Specialist: 1-800-228-8443 or </a> &nbsp; &nbsp;  <u><a href="blnc.html">chat</a></u></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+<div class="well well-lg"><h2 align="center">Check your progress on Business Registration</h2></div>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr><td> 
+<!-- Smart Wizard -->
+  		<div id="wizard" class="swMain">
+  			<ul>
+  				<li><a href="#step-1">
+                <span class="stepNumber">1</span>
+                <span class="stepDesc">
+                   Choose<br />
+                   <small>Business Name</small>
+                </span>
+            </a></li>
+  				<li><a href="#step-2">
+                <span class="stepNumber">2</span>
+                <span class="stepDesc">
+                   Choose<br />
+                   <small>Business Structure</small>
+                </span>
+            </a></li>
+  				<li><a href="#step-3">
+                <span class="stepNumber">3</span>
+                <span class="stepDesc">
+                   Register<br />
+                   <small>Business Online</small>
+                </span>                   
+             </a></li>
+  				<li><a href="#step-4">
+                <span class="stepNumber">4</span>
+                <span class="stepDesc">
+                   After<br />
+                   <small>You File</small>
+                </span>                   
+            </a></li>
+  			</ul>
+  			<div id="step-1">	
+            <h2 class="StepTitle">Find a suitable and available name for your Business</h2>
+            
+			<p><b>Naming your Sole Proprietorship or General Partnership </b></p>
+			<p>
+			You may name your business after your own name without having to consult anyone. </p>
+			<ul type="disk">
+  				    <li>Jane Smith Landscaping (not Jane’s Landscaping)</li>
+  				    <li>Joe Doe Plumbing (not Doe Plumbing)</li>
+					<li>
+					 John Jackson and Mike Mason Handyman Service (not John and Mike: The Handymen)</li>
+            </ul>
+<p>
+A name like Jane’s Landscaping, or a business name that has nothing to do with your name, is considered an “assumed name.”  With an assumed name, you should conduct a search with your county Register of Deeds [<a href="http://www.ncard.us/Directory/CountyMap.htm">here</a>] to find out whether someone is already doing business under the name you want. </p>         			
+        </div>
+  			<div id="step-2">
+            <h2 class="StepTitle">Choosing Business Structure</h2>	
+            <p><b>Find out a Business Structure that's right for you</b></p>  
+			<p> Your choice affects how your business is taxed, financial liability and how decisions about the company are made. You should consult your attorney and/or accountant to help you make the right choice for your particular business. The State of North Carolina cannot advise you. 
+			</p>
+			<ul type="disk">
+  				    <li>   A sole proprietorship is a business that is owned and operated by an individual. It is the simplest and most common structure chosen to start a business. There is no distinction between the business and you, the owner. You are entitled to all profits and are responsible for all your business’s debts, losses and liabilities.</li>
+  				    <li>A general partnership is formed by two or more persons who agree to contribute money, labor, and/or skill to a business and to share its profits, losses, and management. All partners typically are held legally responsible for their own actions and the actions of the other partners.</li>
+					<li>  A corporation is a separate legal entity from the individuals who form it and its owners. Owners are generally protected from personal liability. You may apply to the IRS to be either an S-corporation or a C-corporation, which has implications on income taxes.</li>
+					 </ul>
+        </div>                      
+  			<div id="step-3">
+            <h2 class="StepTitle">Where to File?</h2>	
+            <p>The type of business will determine where you file.</p> 
+				<p>
+				<b>File with the County</b>
+				<ul type="disk">
+  				    <li>Sole Proprieter</li>
+  				    <li>General Partnership</li>
+					</ul>
+				</p>
+					<p>
+					<b>File Online</b>
+				<ul type="disk">
+  				    <li>Business Corporation </li>
+  				    <li>Limited Liability Company(LLC)</li>
+					<li>Limited Partnership (LP)</li>
+					<li>Limited Liability Partnership (LLP)</li>
+					<li>Limited Liability Limited Partnership (LLLP)</li>
+					</p>
+            </ul>
+        </div>
+  			<div id="step-4">
+            <h2 class="StepTitle">What next?</h2>	
+            <p>After you file any business with the N.C. Secretary of State’s Office, you will receive notification from the office regarding the status. Allow 5 business days to receive this email. You may not use your business name for any official purpose until that paperwork is approved. 
+
+			</p>
+			<p>
+			We advise you not to purchase stationery or business cards with your business name until receiving confirmation from the Secretary of State.
+
+				</p>
+        </div>
+		
+  		</div>
+<!-- End SmartWizard Content -->  		
+ 		
+</td></tr>
+</table>
+		<footer align="center">
+        <p>&copy; Business Link NC is a collaboration among the N.C. Department of Commerce, the N.C. Department of Revenue, and the N.C. Secretary of State.</p>
+      </footer>
+
+	  <script src="js/jquery-1.10.2.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+
+  
+</body>
+</html>
