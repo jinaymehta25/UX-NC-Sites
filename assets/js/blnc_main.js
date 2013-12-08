@@ -5,22 +5,23 @@
  * Time: 3:22 AM
  * To change this template use File | Settings | File Templates.
  */
+var BLNC_LIB = BLNC_LIB || {};
 var console = console ? console : {};
+var _ = _ ? _ : {};
 
-$(".panel-title").on("click","a, .expand_collapse_ui a",function(){
 
-    clicked_id = $(this).parents(".panel-title").attr("id");
-    if(clicked_id == "first_title" && $("#second_title").hasClass("expanded")){
-        $("#second_title").removeClass("expanded");
-        $("#second_title").children(".expand_collapse_ui").children().toggle();
-    }
+$(document).ready(function () {
+    var lib = new BLNC_LIB({});
 
-    if(clicked_id == "second_title" && $("#first_title").hasClass("expanded")){
-        $("#first_title").removeClass("expanded");
-        $("#first_title").children(".expand_collapse_ui").children().toggle();
-    }
+    $('#search_license').on('click',function(){
+        $("#second_title a").trigger('click');
+        var key = $('#search_box').val();
+        var co = $('#sel_county').val();
+        var cat = $('#sel_category').val();
+        lib.getSearchResults(key,co,cat);
+    });
 
-    $(this).parents(".panel-title").children(".expand_collapse_ui").children().toggle();
-    $(this).parents(".panel-title").toggleClass("expanded");
 
 });
+
+
