@@ -15,7 +15,10 @@ $(document).ready(function () {
 
     $('#search_license').on('click',function(){
         $("#second_title a").trigger('click');
-        lib.getSearchResults($(this));
+        var key = $('#search_box').val();
+        var co = $('#sel_county').val();
+        var cat = $('#sel_category').val();
+        lib.getSearchResults(key,co,cat);
     });
 
 
