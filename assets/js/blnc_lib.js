@@ -37,9 +37,9 @@ var BLNC_LIB = (function (){
         {title: this.licenses[2], category: this.categories[2], county: this.counties[2], tags:['forest']},
         {title: this.licenses[3], category: this.categories[2], county: this.counties[2], tags:['budget','finance']},
         {title: this.licenses[4], category: this.categories[3], county: this.counties[3], tags:['kick','karate','fight']},
-        {title: this.licenses[5], category: this.categories[3], county: this.counties[4], tags:['alcohol']},
+        {title: this.licenses[5], category: this.categories[3], county: this.counties[4], tags:['alcohol','beer','wine']},
         {title: this.licenses[6], category: this.categories[4], county: this.counties[4], tags:['beer','wine']},
-        {title: this.licenses[7], category: this.categories[4], county: this.counties[5], tags:['alcohol']},
+        {title: this.licenses[7], category: this.categories[4], county: this.counties[5], tags:['alcohol','beer','wine']},
         {title: this.licenses[8], category: this.categories[4], county: this.counties[5], tags:['utilities']},
         {title: this.licenses[9], category: this.categories[5], county: this.counties[5], tags:['history','archives']},
         {title: this.licenses[10], category: this.categories[5], county: this.counties[6], tags:['history','archives']},
@@ -160,7 +160,7 @@ var BLNC_LIB = (function (){
 
             $.each(t_search_res,function(i,v){
                 if(key == "" || key.indexOf(v.title) != -1 || v.title.indexOf(key) != -1 || ( v.tags.join(",")!="" && (key.toLowerCase().indexOf(v.tags.join(",")) !=-1) || v.tags.join(",").indexOf(key.toLowerCase()) != -1)){
-                    that.createRow([v.title, v.category, v.county,that.fnRowCallback]);
+                    that.createRow([v.title, v.category, v.county, ""]);
                 }
             });
 
