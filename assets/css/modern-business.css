@@ -15,7 +15,13 @@ html, body {
 body {
     padding-top: 50px; /* body padding for fixed top nav */
     font-family: 'Ubuntu', 'sans-serif';
+    font-size: 16px;
 }
+
+h4,h3 {
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
 
 .panel-group {
     margin-top: 20px;
@@ -30,8 +36,25 @@ p {
     font-size: 16px;
 }
 
-h2 {
+h2{
     font-size: 38px;
+}
+
+h3{
+    font-size: 25px;
+}
+.more-res .row{
+
+}
+.more-res-btn{
+ width:100%;
+}
+.more-res .col-md-3{
+    padding:5px !important;
+}
+
+h2, h3 {
+
     line-height: 38px;
     padding: 15px 3px;
     margin: 0 0 15px 0;
