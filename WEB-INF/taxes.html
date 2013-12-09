@@ -18,8 +18,8 @@
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script>
-        $(function () {
-            $("#accordion").accordion();
+        $(function() {
+            $( "#accordion" ).accordion();
         });
     </script>
 
@@ -45,7 +45,14 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav ">
                 <li><a href="#">Business Registration</a></li>
-                <li><a href="#">Licensing</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Licensing<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blnc_search.html">Search For A License</a></li>
+                        <li><a href="license_lookup.html">Browse Licenses</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="#">Taxes</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
@@ -283,7 +290,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">Obtain Insurance</h4>
+                        <h4 class="modal-title" id="myModalLabel">Choose a business structure</h4>
                     </div>
                     <div class="modal-body">
                         Choose a business structure
@@ -306,7 +313,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="myModalLabel">Get Contracts Reviewed</h4>
+                        <h4 class="modal-title" id="myModalLabel">Tax Credits</h4>
                     </div>
                     <div class="modal-body">
                         Tax Credits
