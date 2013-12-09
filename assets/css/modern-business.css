@@ -58,6 +58,10 @@ h3{
     font-size:19px; !important
 }
 
+#myCarousel{
+    height:250px;
+}
+
 .swMain.span {
     font-family: 'Ubuntu', 'sans-serif' !important;
 }
@@ -153,8 +157,8 @@ nav, .footer {
 
 /* Half Page Height Carousel Customization */
 .carousel {
-    height: 45%;
-    width: 80%;
+    height: 233px;
+
     margin: 0 auto;
     margin-top: 15px;
 }
