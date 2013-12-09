@@ -1,0 +1,235 @@
+[
+    {
+        "data":"Administration",
+        "children":[
+            {
+                "data":"Non-Public Education",
+                "children":[]
+            },
+
+            {
+                "data":"  State Construction Office ",
+                "children":[]
+            }
+        ]
+    },
+
+    {
+        "data":"Agriculture and consumer services",
+        "children":[
+            {
+                "data":"Nc Forest Service",
+                "children":[]
+            },
+
+            {
+                "data":"Budget And Finance",
+                "children":[]
+            }  ,
+            {
+                "data":"Food & Drug Protection",
+                "children":[]
+            },
+            {
+                "data":"Marketing",
+                "children":[]
+            },
+            {
+                "data":"State Fair",
+                "children":[]
+            },
+            {
+                "data":"Veterinary",
+                "children":[]
+            },
+            {
+                "data":"Plant Industry",
+                "children":[]
+            },
+            {
+                "data":"Standards",
+                "children":[]
+            }
+        ]
+    },
+    {
+        "data":"Public safety",
+        "children":[
+            {
+                "data":"Alcohol Law Enforcement",
+                "children":[]
+            },
+            {
+                "data":"Boxing Authority (Alcohol Law Enforcement)",
+                "children":[]
+            }
+
+        ]
+    },
+    {
+        "data":"Commerce",
+        "children":[
+            {
+                "data":"ABC Commission",
+                "children":[]
+            },
+            {
+                "data":"NC Cemetery Commission",
+                "children":[]
+            },
+            {
+                "data":"Alcohol Law Enforcement",
+                "children":[]
+            },
+            {
+                "data":"Office Of The Commissioner Of Banks",
+                "children":[]
+            },
+            {
+                "data":"Utilities Commission",
+                "children":[]
+            } ,
+            {
+                "data":"Credit Union",
+                "children":[]
+            }
+        ]
+    },
+    {
+        "data":"Cultural Resources",
+        "children":[
+            {
+                "data":"Archives & History/Office Of State Archaeology",
+                "children":[]
+            },
+            {
+                "data":"Archives & History/Underwater Archaeology Unit",
+                "children":[]
+            }
+        ]
+    },
+    {
+        "data":"Nc Community College System",
+        "children":[
+            {
+                "data":"Office Of Proprietary Schools",
+                "children":[]
+            }
+        ]
+    },
+    {
+        "data":"Health And Human Services",
+        "children":[
+            {
+                "data":"Child Development",
+                "children":[]
+            },
+            {
+                "data":"Health Service Regulation",
+                "children":[]
+            },
+            {
+                "data":"Mental Health, Developmental Disability & Substance Abuse Services",
+                "children":[]
+            },
+            {
+                "data":"Public Health",
+                "children":[]
+            },
+            {
+                "data":"Services For The Blind/Business Enterprises",
+                "children":[]
+            },
+            {
+                "data":"Social Services",
+                "children":[]
+            },
+            {
+                "data":"Aging And Adult Services",
+                "children":[]
+            }
+        ]
+    },
+    {
+        "data":"Public Instruction",
+        "children":[
+            {
+                "data":"Financial & Business Services Area",
+                "children":[]
+            }
+        ]
+    },
+    {
+        "data":"Environment and Natural Resources",
+        "children":[
+            {
+                "data":"Air Quality",
+                "children":[]
+            },
+            {
+                "data":"Coastal Management",
+                "children":[]
+            },
+            {
+                "data":"Energy, Mineral And Land Resources",
+                "children":[]
+            },
+            {
+                "data":"Marine Fisheries",
+                "children":[]
+            },
+            {
+                "data":"Office Of Conservation, Planning, & Community Affairs",
+                "children":[]
+            },
+            {
+                "data":"Parks And Recreation",
+                "children":[]
+            }  ,
+            {
+                "data":"Waste Management",
+                "children":[]
+            },
+            {
+                "data":"Water Resources",
+                "children":[]
+            } ,
+            {
+                "data":"Wildlife Resources",
+                "children":[]
+            }
+        ]
+    },
+    {
+        "data":"Insurance",
+        "children":[  ]
+    },
+    {
+        "data":"Justice",
+        "children":[  ]
+    },
+    {
+        "data":"Labor",
+        "children":[  ]
+    },
+    {
+        "data":"Occupational licensing boards",
+        "children":[  ]
+    },
+    {
+        "data":"Revenue",
+        "children":[  ]
+    },
+    {
+        "data":"Secretary of state",
+        "children":[  ]
+    },
+    {
+        "data":"Transportation",
+        "children":[  ]
+    },
+    {
+        "data":"Board of governors of unc",
+        "children":[  ]
+    }
+]

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>License Lookup</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/datatable_bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/TableTools.css">
+    <link rel="stylesheet" href="../assets/css/modern-business.css">
+    <link rel="stylesheet" href="../assets/css/license_lookup.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Convergence|Vollkorn|Ubuntu' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/jqx.base.css">
+    <link rel="stylesheet" href="../assets/css/jquery-ui.min.css">
+
+    <link rel="stylesheet" href="../assets/css/jquery.fs.scroller.css">
+
+    <script type="text/javascript" src="../assets/js/jquery.js"></script>
+    <script type="text/javascript" src="../assets/js/gettheme.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fs.scroller.min.js"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.jstree.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="../assets/js/dt_pagination.js"></script>
+
+    <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="../assets/js/license_lookup.js"></script>
+
+    <script src="../assets/js/jquery-ui.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../assets/js/jqxcore.js"></script>
+    <script type="text/javascript" src="../assets/js/jqxsplitter.js"></script>
+
+
+</head>
+<body id="license_lookup">
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top one-edge-shadow" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+            <a class="navbar-brand" style="padding-bottom:0px;padding-top:10px" href="blnc.html"><img
+                    src="../assets/img/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav ">
+                <li><a href="#">Business Registration</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Licensing<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blnc_search.html">Search For A License</a></li>
+                        <li><a href="license_lookup.html">Browse Licenses</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="taxes.html">Taxes</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Startup Checklist</a></li>
+                        <li><a href="#">For Employers</a></li>
+                        <li><a href="#">Help for Startups</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">About</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Need Help?<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="portfolio-1-col.html">Speak to a Business Resource Specialist: 1-800-228-8443
+                            or </a> &nbsp; &nbsp; <u><a href="blnc.html">chat</a></u></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<div class="content">
+    <div class="container" style="margin-top:25px">
+        <h2> BLNC License Lookup</h2>
+
+        <div class="panel-group" style="top: 60px" id="filter_panel">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 id="first_title" class="panel-title expanded">
+                        <div class="expand_collapse_ui">
+                            <a data-toggle="collapse" data-parent="#filter_panel" href="#collapseOne" class="exp_glyph"
+                               style="display: none"><span class="glyphicon glyphicon-plus-sign"></span></a>
+                            <a data-toggle="collapse" data-parent="#filter_panel" href="#collapseOne"
+                               class="exp_glyph"><span class="glyphicon glyphicon-minus-sign"></span></a>
+                        </div>
+                        <a data-toggle="collapse" data-parent="#filter_panel" href="#collapseOne">
+                            &nbsp;Information
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+
+                        <div class="col-md-4 ">
+                            <img src="../assets/img/LicensingandPermitting.JPG"
+                                 style="width: 100%;height: 200px; padding:20px"></img>
+                        </div>
+
+                        <div class="col-md-8 "><p>In order to operate your business, you must comply with a wide range
+                            of
+                            local, state and
+                            federal rules. SBA’s
+                            Business Licenses and Permits tool can help you navigate through this process.
+                        </p>
+
+                            <p>The State of North Carolina has no single general business license that will ensure
+                                compliance with all
+                                requirements. Some businesses may be subject to several state requirements while others
+                                may
+                                not be subject
+                                to
+                                any. There are over 700 regulatory, state issued and occupational licenses and permits.
+                                In
+                                addition, a local
+                                license may be required for your business. </p>
+
+                            <p>
+                                Our BLNC counselors will give you detailed State license information as well as the name
+                                and
+                                contact
+                                information
+                                to city, county and federal governments. </p></div>
+                    </div>
+                    <!-- /.row -->
+
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 id="second_title" class="panel-title">
+                        <div class="expand_collapse_ui">
+                            <a data-toggle="collapse" data-parent="#filter_panel" href="#collapseTwo"
+                               class="exp_glyph"><span class="glyphicon glyphicon-plus-sign"></span></a>
+                            <a data-toggle="collapse" data-parent="#filter_panel" href="#collapseTwo" class="exp_glyph"
+                               style="display: none"><span class="glyphicon glyphicon-minus-sign"></span></a>
+                        </div>
+                        <a data-toggle="collapse" data-parent="#filter_panel" href="#collapseTwo">
+                            &nbsp;Browse
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div id="wrapper">
+
+                            <div id="left-categories">
+                                <span class="tree-title">Agencies</span>
+
+                                <div id="agency-tree">
+                                </div>
+                            </div>
+
+                            <div id="right_results">
+                                <div id="licenses">
+                                    <table id="results_table" class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th>License</th>
+                                            <th>Agency</th>
+                                            <th>Details</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                <div id="loading_results">
+                                    <img src="../assets/img/loading.gif"/>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="footer shadow">
+        <div class="container ">
+            <div class="row">
+                <div>
+                    <p><span><img
+                            src="../assets/img/logo.png"
+                            style="display:inline-block;width:50px;padding-right: 5px;"></span>Business
+                        Link NC is a collaboration
+                        among the N.C. Department of Commerce, the N.C. Department of
+                        Revenue, and the N.C. Secretary of State.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var theme = "bootstrap";
+        $('#wrapper').jqxSplitter({ width: '100%', height: '100%', theme: theme, panels: [
+            { size: '35%' },
+            { size: '65%'}
+        ] });
+
+        $("#right_results").scroller();
+        /* $('#left-categories').slimScroll({
+         height: '600px'
+         });
+         */
+        $(".panel-title").on("click", "a, .expand_collapse_ui a", function () {
+
+            console.log("in toggle")
+            clicked_id = $(this).parents(".panel-title").attr("id");
+            console.log("in toggle" + clicked_id);
+            if (clicked_id == "first_title" && $("#second_title").hasClass("expanded")) {
+                $("#second_title").removeClass("expanded");
+                $("#second_title").children(".expand_collapse_ui").children().toggle();
+                console.log("in toggle1")
+            }
+
+            if (clicked_id == "second_title" && $("#first_title").hasClass("expanded")) {
+                $("#first_title").removeClass("expanded");
+                $("#first_title").children(".expand_collapse_ui").children().toggle();
+                console.log("in toggle2")
+            }
+
+            $(this).parents(".panel-title").children(".expand_collapse_ui").children().toggle();
+            $(this).parents(".panel-title").toggleClass("expanded");
+
+        });
+
+    });
+</script>
+</body>
+</html>
+
+
+
