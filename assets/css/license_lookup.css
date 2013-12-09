@@ -1,7 +1,7 @@
 #wrapper {
-    border: 2px solid black;
+    border: 1px solid #e0e0e0;
     min-height: 600px;
-    height:600px;
+    height:800px;
 
 }
 
@@ -79,8 +79,4 @@ body, html {
     .btnLicense {
         width: 15px;
     }
-}
-
-body {
-    padding: 30px;
 }

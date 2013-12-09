@@ -77,9 +77,12 @@ h2, h3 {
 
 nav, .footer {
     font-family: 'Ubuntu', 'sans-serif';
-    font-size: 16px;
+    font-size: 14px;
 }
 
+.footer .row-fluid{
+    padding:5px;
+}
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -109,7 +112,7 @@ nav, .footer {
 }
 
 .home_column_content {
-    min-height: 50px;
+    min-height: 80px;
     font-size: 17px;
     font-family: 'Vollkorn', sans-serif;
 }
@@ -242,9 +245,14 @@ p {
 .footer {
     background-color: #222;
     color: #999;
-    margin: 0px 0;
+    bottom: 0;
+    margin-top:20px;
+    width: 100%;
 }
 
+.footer p{
+    font-size:14px;
+}
 .spacer {
     height: 20px;
 }
@@ -256,4 +264,14 @@ p {
         height: 70%; /* increases the carousel height so it looks good on phones */
     }
 
+}
+
+@media only screen and (max-width: 800px) {
+    #footer_shadow{
+        display: none
+    }
+
+    .footer{
+        display:none;
+    }
 }
