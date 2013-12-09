@@ -3,9 +3,9 @@ $(document).ready(function () {
 
         "bAutoWidth":false,
         "aoColumns":[
-            { "sWidth":"45%" },
+            { "sWidth":"55%" },
             { "sWidth":"25%" },
-            { "sWidth":"30%", "sClass":"center", "bSortable":false }
+            { "sWidth":"20%", "sClass":"center", "bSortable":false }
         ],
         "aaData":[
             ["Open Burning/High Hazard Counties", "NC Forest Service", ""],

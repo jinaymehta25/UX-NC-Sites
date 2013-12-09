@@ -14,12 +14,36 @@ html, body {
 
 body {
     padding-top: 50px; /* body padding for fixed top nav */
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+.panel-group {
+    margin-top: 20px;
+}
+
+.taxes_top {
+    margin-top: 30px;
+}
+
+p {
+
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 38px;
+    padding: 15px 3px;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid whiteSmoke;
+    font-family: 'Ubuntu', 'sans-serif';
 }
 
 nav, .footer {
-    font-family: 'Ubuntu','sans-serif';
-    font-size:16px;
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 16px;
 }
+
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
@@ -39,7 +63,6 @@ nav, .footer {
 .section-colored {
     background-color: #e1e1e1; /* change this to change the background color of a colored section */
 }
-
 
 .contentHeadline {
     font-family: 'Convergence', sans-serif;
@@ -74,9 +97,10 @@ nav, .footer {
     border: 1px solid #cccccc;
 }
 
-.mainContent{
-    border:1px solid #bebec5;
+.mainContent {
+    border: 1px solid #bebec5;
 }
+
 .one-edge-shadow {
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;

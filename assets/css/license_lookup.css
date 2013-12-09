@@ -1,12 +1,17 @@
 #wrapper {
     border: 2px solid black;
+    min-height: 600px;
+    height:600px;
 
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
     background-color: #E4E0E0 !important;
 
+}
 
+.expand_collapse_ui {
+    float: left
 }
 
 .btnLicense {
@@ -15,7 +20,7 @@
 
 p {
     font-family: 'Ubuntu', sans-serif;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #loading_results {
@@ -30,17 +35,31 @@ p {
 
 #left-categories {
     overflow-y: auto;
+    height: auto !important;
     padding: 5px;
 }
 
 #right_results {
-
+    overflow-y: auto;
     vertical-align: top;
     padding: 10px;
 }
 
+body, html {
+    height: 100%;
+}
+
 #agency-tree {
     padding: 10px;
+}
+
+
+.tree-title {
+    border: 0px solid #ddd;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Ubuntu', 'sans-serif';
 }
 
 #agency-tree {
