@@ -37,7 +37,7 @@ p {
 }
 
 h2{
-    font-size: 38px;
+    font-size: 38px !important;
 }
 
 h3{
@@ -68,11 +68,11 @@ h3{
 
 h2, h3 {
 
-    line-height: 38px;
+    line-height: 38px !important ;
     padding: 15px 3px;
     margin: 0 0 15px 0;
     border-bottom: 1px solid whiteSmoke;
-    font-family: 'Ubuntu', 'sans-serif';
+    font-family: 'Ubuntu', 'sans-serif' !important;
 }
 
 nav, .footer {
