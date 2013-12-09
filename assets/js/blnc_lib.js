@@ -83,6 +83,8 @@ var BLNC_LIB = (function (){
                 }
             ],
 
+            "iDisplayLength": 5,
+
             "fnRowCallback":function (nRow) {
                 var imgTagDetails = "<img class='btnLicense' src='../assets/img/details.gif'/>";
                 var imgTagDload = "<img class='btnLicense' src='../assets/img/pdf.png'>"

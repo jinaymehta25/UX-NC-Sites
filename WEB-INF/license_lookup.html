@@ -27,9 +27,9 @@
 </head>
 <body>
 
+
 <nav class="navbar navbar-inverse navbar-fixed-top one-edge-shadow" role="navigation">
     <div class="container">
-
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -38,7 +38,7 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-            <a class="navbar-brand" style="padding-bottom:0px;padding-top:10px" href="#"><img
+            <a class="navbar-brand" style="padding-bottom:0px;padding-top:10px" href="blnc.html"><img
                     src="../assets/img/logo.png"></a>
         </div>
 
@@ -46,7 +46,14 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav ">
                 <li><a href="#">Business Registration</a></li>
-                <li><a href="#">Licensing</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Licensing<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blnc_search.html">Search For A License</a></li>
+                        <li><a href="license_lookup.html">Browse Licenses</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="#">Taxes</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
