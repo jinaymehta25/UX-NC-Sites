@@ -37,7 +37,7 @@ p {
 }
 
 h2{
-    font-size: 38px !important;
+    font-size: 38px ;
 }
 
 h3{
@@ -261,12 +261,12 @@ p {
 @media (max-width: 767px) {
 
     .carousel {
-        height: 70%; /* increases the carousel height so it looks good on phones */
+        display:none; /* increases the carousel height so it looks good on phones */
     }
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 767px) {
     #footer_shadow{
         display: none
     }
