@@ -271,6 +271,9 @@ p {
         display: none
     }
 
+    .anchor li{
+        width:75%;
+    }
     .footer{
         display:none;
     }
