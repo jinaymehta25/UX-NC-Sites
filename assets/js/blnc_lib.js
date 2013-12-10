@@ -86,9 +86,10 @@ var BLNC_LIB = (function (){
             "iDisplayLength": 5,
 
             "fnRowCallback":function (nRow) {
-                var imgTagDetails = "<img class='btnLicense' src='../assets/img/details.gif'/>";
-                var imgTagDload = "<img class='btnLicense' src='../assets/img/pdf.png'>"
-                var imgTagApply = "<img class='btnLicense' src='../assets/img/icon-apply.png'>"
+                var imgTagDetails = "<img class='btnLicense' title='View Details' src='../assets/img/details.gif'/>";
+                var imgTagDload = "<img class='btnLicense' title='Download Application' src='../assets/img/pdf.png'>"
+                var imgTagApply = "<img class='btnLicense' title='Apply Online' src='../assets/img/icon-apply.png'>"
+
                 $('td:eq(3)', nRow).html(imgTagDetails + imgTagDload + imgTagApply); // where 4 is the zero-origin visible column in the HTML
                 return nRow;
             }
